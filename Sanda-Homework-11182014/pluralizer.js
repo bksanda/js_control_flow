@@ -11,7 +11,7 @@
 var thing = "cat";
 var count = "5";
 
-for (var i = 0; i < count; i+=1) {
+for (var i = 1; i < count; i+=1) {
 	if (i > 1) {
 		newThing = thing + "s";
 		console.log (i + " " + newThing);
