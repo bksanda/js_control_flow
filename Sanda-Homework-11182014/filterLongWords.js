@@ -3,8 +3,8 @@
 // Hardcode an array of words. Have a variable maxLength, 
 // push words that are less than the maxLength into a new array, and console.log that.
 
-var continents = ["Africa","Antarctica","Australia","North America", "South Africa", "Asia", "Europe"]
-var maxLength = 5;
+var continents = ["Africa","Antarctica","Australia","North America", "South America", "Asia", "Europe"]
+var maxLength = 7;
 var shortContinents = [];
 
 for (var i = 0; i < continents.length; i+=1) {
