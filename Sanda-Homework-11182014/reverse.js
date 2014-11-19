@@ -15,8 +15,10 @@ console.log(inputString);
 
 var emptyString = "";
 
-for (var i = inputString.length -1; i >= 0; i-=1) {
-	emptyString = emptyString + inputString.charAt(i);
+for (var i = inputString.length /*-1 -- this isn't needed because I'm using charAt method
+	*/ ; i >= 0; i-=1) {
+	emptyString = emptyString + inputString.charAt(i); 
+	// we actually don't need to use charAt, so I don't need -1
 }
 
 console.log(emptyString);
