@@ -28,17 +28,24 @@ var testScore = Math.floor(Math.random()*100);
 
 switch(true){
   case testScore > 89:
-    console.log("Your grade is A");
+    console.log("You got " + testScore + "%");
+    console.log("Your grade is A -- YOU ARE AWESOME!");
     break;
   case testScore > 79:
-    console.log("Your grade is B");
+    console.log("You got " + testScore + "%");
+    console.log("Your grade is B -- KIND OF SO-SO");
     break;
   case testScore > 69:
-    console.log("Your grade is C");
+    console.log("You got " + testScore + "%");
+    console.log("Your grade is C -- NEEDS IMPROVEMENT");
     break;
   case testScore > 59:
-    console.log("Your grade is D");
+    console.log("You got " + testScore + "%");
+    console.log("Your grade is D -- WARNING!");
     break;
   default:
-    console.log("Your grade is F");
+    console.log("You got " + testScore + "%");
+    console.log("Your grade is F -- YOU FAIL!");
 }
+
+// WHY is switch more efficient?
