@@ -15,7 +15,7 @@ console.log(inputString);
 
 var emptyString = "";
 
-for (var i = inputString.length; i >= 0; i-=1) {
+for (var i = inputString.length -1; i >= 0; i-=1) {
 	emptyString = emptyString + inputString.charAt(i);
 }
 
