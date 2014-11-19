@@ -11,6 +11,7 @@
 // Celsius to Fahrenheit:   (°C × 9/5) + 32 = °F
 // Fahrenheit to Celsius:   (°F − 32) x 5/9 = °C
 
+
 var degreeCelsius = Math.ceil(Math.random()*100);
 var degreeFahrenheit = (degreeCelsius * 9/5) + 32;
 console.log(degreeCelsius + "°C" + " is " + degreeFahrenheit + "°F");
