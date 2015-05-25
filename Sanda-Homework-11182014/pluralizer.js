@@ -15,7 +15,8 @@ for (var i = 1; i < count; i+=1) {
 	if (i > 1) {
 		newThing = thing + "s";
 		console.log (i + " " + newThing);
-	} else {
+	} 
+	else {
 		console.log(i + " " + thing);
 	};
 }; 

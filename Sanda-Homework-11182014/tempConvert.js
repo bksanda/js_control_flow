@@ -16,3 +16,4 @@ var degreeCelsius = Math.ceil(Math.random()*100);
 var degreeFahrenheit = (degreeCelsius * 9/5) + 32;
 console.log(degreeCelsius + "°C" + " is " + degreeFahrenheit + "°F");
 
+// option shift 8 = °
